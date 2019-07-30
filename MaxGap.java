@@ -7,7 +7,7 @@ import java.util.*;
  * 当最大值在右边时，左边的A[0]被划分为左数组，且作为左边数组的最大值（如果不选A[0],则可能会有比A[0]更大的值，所以选择A[0]
  * 当最大值在中间时，选取max（max-A[0]，max-A[n-1]）
  *  */
-public class MaxGap {
+public class Maxgap {
     public int findMaxGap(int[] A, int n) {
         int max=0;
         for(int i=0;i<n;i++){
